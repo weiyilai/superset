@@ -53,7 +53,6 @@ dependencies = [
     "flask-migrate>=3.1.0, <4.0",
     "flask-session>=0.4.0, <1.0",
     "flask-wtf>=1.1.0, <2.0",
-    "func_timeout",
     "geopy",
     "greenlet>=3.0.3, <=3.1.1",
     "gunicorn>=22.0.0; sys_platform != 'win32'",
@@ -215,7 +214,7 @@ combine_as_imports = true
 include_trailing_comma = true
 line_length = 88
 known_first_party = "superset"
-known_third_party = "alembic, apispec, backoff, celery, click, colorama, cron_descriptor, croniter, cryptography, dateutil, deprecation, flask, flask_appbuilder, flask_babel, flask_caching, flask_compress, flask_jwt_extended, flask_login, flask_migrate, flask_sqlalchemy, flask_talisman, flask_testing, flask_wtf, freezegun, geohash, geopy, holidays, humanize, isodate, jinja2, jwt, markdown, markupsafe, marshmallow, msgpack, nh3, numpy, pandas, parameterized, parsedatetime, pgsanity, pkg_resources, polyline, prison, progress, pyarrow, sqlalchemy_bigquery, pyhive, pyparsing, pytest, pytest_mock, pytz, redis, requests, selenium, setuptools, shillelagh, simplejson, slack, sqlalchemy, sqlalchemy_utils, sqlparse, typing_extensions, urllib3, werkzeug, wtforms, wtforms_json, yaml"
+known_third_party = "alembic, apispec, backoff, celery, click, colorama, cron_descriptor, croniter, cryptography, dateutil, deprecation, flask, flask_appbuilder, flask_babel, flask_caching, flask_compress, flask_jwt_extended, flask_login, flask_migrate, flask_sqlalchemy, flask_talisman, flask_testing, flask_wtf, freezegun, geohash, geopy, holidays, humanize, isodate, jinja2, jwt, markdown, markupsafe, marshmallow, msgpack, nh3, numpy, pandas, parameterized, parsedatetime, pgsanity, polyline, prison, progress, pyarrow, sqlalchemy_bigquery, pyhive, pyparsing, pytest, pytest_mock, pytz, redis, requests, selenium, setuptools, shillelagh, simplejson, slack, sqlalchemy, sqlalchemy_utils, sqlparse, typing_extensions, urllib3, werkzeug, wtforms, wtforms_json, yaml"
 multi_line_output = 3
 order_by_type = false
 
@@ -391,6 +390,5 @@ python-geohash = "0"
 # --------------------------------------------------------------
 
 # TODO REMOVE THESE DEPS FROM CODEBASE
-func-timeout = "4"  # AGPL
 paramiko = "3"  # GPL
 pyxlsb = "1"  # GPL
