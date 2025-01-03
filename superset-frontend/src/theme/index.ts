@@ -77,6 +77,9 @@ const baseConfig: ThemeConfig = {
       fontWeightStrong: supersetTheme.typography.weights.medium,
       colorBgContainer: supersetTheme.colors.grayscale.light4,
     },
+    Divider: {
+      colorSplit: supersetTheme.colors.grayscale.light3,
+    },
     Input: {
       colorBorder: supersetTheme.colors.secondary.light3,
       colorBgContainer: supersetTheme.colors.grayscale.light5,
@@ -96,6 +99,13 @@ const baseConfig: ThemeConfig = {
       paddingLG: supersetTheme.gridUnit * 3,
       colorSplit: supersetTheme.colors.grayscale.light3,
       colorText: supersetTheme.colors.grayscale.dark1,
+    },
+    Modal: {
+      colorBgMask: `${supersetTheme.colors.grayscale.dark2}73`,
+      contentBg: supersetTheme.colors.grayscale.light5,
+      titleFontSize: supersetTheme.gridUnit * 4,
+      titleColor: `${supersetTheme.colors.grayscale.dark2}D9`,
+      headerBg: supersetTheme.colors.grayscale.light4,
     },
     Tag: {
       borderRadiusSM: 2,
